@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stark_welcome</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="stylesheet" href="css/responsive/smallmobile.css">
+
+</head>
+
+<body>
+  <!-------------------------------------------collapsable-navbar---------------------------------->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><h1 id="brand">PORTFOLIO</h1></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="education.html">EDUCTAION</a></li>
+          <li><a href="skils.html">SKILLS</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="about_me.html">ABOUT ME</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!----------------------------------------------home-page---------------------------->
+  <div>
+    <div class='container'>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="title">
+            <h2 class="h2">Hi,Im</h2>
+            <h1>NAVEEN BELLAD</h1>
+            <h2 class="h2">Web Designer</h2>
+          </div>
+          <a href="images/resume.pdf">
+            <button>View</button>
+          </a>
+          
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="container_outer_img">
+            <div class="img-inner">
+              <img src='images/PicsArt_08-24-09.21.34.jpg' alt="" class="container_img" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+  </div>
+
+  <!-- ------------------------foooter------------------- -->
+  <div>
+    <footer>
+      <div class="container" style="height: 63px;">
+        <div class="row">
+          <div class="col-lg-4">
+             <h2>Designed and Developed by NAVEEN BELLAD</h2>
+          </div>
+
+          <div class="col-lg-4">
+            <h2>&#169 copyright 2021</h2>
+          </div>
+
+          <div class="col-lg-4">
+             <ul class="ul">
+               <li><a href=""><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/naveen-bellad-b0a5521b1"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href=""><i class="fa fa-twitter"></i></a></li>
+
+             </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+<script>
+  function myFunction(th) {
+  // alert("hello")
+  window.open(th.name,'_blank');
+}
+</script>
+</html>
